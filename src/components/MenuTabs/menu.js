@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 
 import { Ionicons } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Produtos from '../produto/produto';
 
 function HomeScreen() {
 	return (
@@ -31,7 +32,7 @@ function SobreScreen() {
   function ProdutoScreen() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text></Text>
+        <Produtos/>
       </View>
     );
   }
